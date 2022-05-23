@@ -18,22 +18,10 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer__content__menus">
-                    <div className="footer__content__menu">
-                        <Link to="/">Home</Link>
-                        <Link to="/">Contact us</Link>
-                        <Link to="/">Term of services</Link>
-                        <Link to="/">About us</Link>
-                    </div>
-                    <div className="footer__content__menu">
-                        <Link to="/">Live</Link>
-                        <Link to="/">FAQ</Link>
-                        <Link to="/">Premium</Link>
-                        <Link to="/">Pravacy policy</Link>
-                    </div>
-                    <div className="footer__content__menu">
-                        <Link to="/">You must watch</Link>
-                        <Link to="/">Recent release</Link>
-                        <Link to="/">Top IMDB</Link>
+                    <div className="footer__content__contribute">
+                        <a href="https://docs.google.com/forms/d/1EfD0owgVBNE2aAOu344Macn7HpfCEW2sYmpZ1-PKogo/edit">
+                            CONTRIBUTE
+                        </a>
                     </div>
                 </div>
             </div>

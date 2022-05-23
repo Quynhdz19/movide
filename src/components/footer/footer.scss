@@ -16,25 +16,13 @@
         }
 
         &__menus {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-
-            @include mobile {
-                grid-template-columns: repeat(2, 1fr);
+           
+            .footer__content__contribute {
+                font-size: 2rem;
+                font-weight: 600;
+                text-align: center;
             }
-        }
-
-        &__menu {
-            @include flex(flex-start, flex-start);
-            flex-direction: column;
-            margin-top: 1rem;
-
-            font-size: 1.5rem;
-            font-weight: 600;
-
-            & > * ~ * {
-                margin-top: 1rem;
-            }
+         
         }
     }
 }
